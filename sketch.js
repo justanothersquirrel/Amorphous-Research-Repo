@@ -541,7 +541,7 @@ amenable قابل للتعديل
 
   /*----------------------------------------------------Mapping the Development Content"
                         Included pages:
-                                How to Notice Dust? ∑∑∑∑∑
+                                How to Notice Dust? 
                                 
   */
   "Mapping the Development": {
@@ -550,33 +550,36 @@ amenable قابل للتعديل
 
 «««Configuring dust as matter to ground experimentations in understanding research through computational practice. 
 
-«««The general, simple question is: How do we appreciate and notice dust? On what grounds does the act of noticing become solid and definable toward any sort of matter, in this case, dust? #how do we notice dust?
+«««The general, simple question is: How do we appreciate and notice dust? On what grounds does the act of noticing become solid and definable toward any sort of matter, in this case, dust? <span class="research-link" onclick="spawn('How to notice dust?')">#How to notice dust?</span>
 ««Why did I choose dust? 
 Because it has many layers of meaning, and from a personal perspective, it has accumulated in my mind the same way it layers on the edge of my bedroom window. It is nonsense; it can be collected, experimented with, and gazed at.
 ««What type of dust am I looking at? 
-I began with dust that was within reach (on my bedside table and my desk) comprising small particles of hair, skin, and textiles. I then expanded my view to consider dust as waste from 3D print recycling in the workshop, which introduced the notion of the disposed or unnoticed object (trash) as dust. The definition of dust is in a constant flow. #a list of dust
+I began with dust that was within reach (on my bedside table and my desk) comprising small particles of hair, skin, and textiles. I then expanded my view to consider dust as waste from 3D print recycling in the workshop, which introduced the notion of the disposed or unnoticed object (trash) as dust. The definition of dust is in a constant flow. <span class="research-link" onclick="spawn('a list of dust')">#a list of dust</span>
 
-«««This research eventually developed into a diagram of categorisation. By capturing different aspects of how dust is realized, the diagram transformed into a research tool—a communal platform acting as a layer between the |obsessor|ovservor| and the |obsessed|observed|. Within the intersection of these two perspectives, the acknowledgment of both sides occurs by passing through the layers of the #Folded Cup Diagram, beginning with the abstract, geological, ecological, theoretical, and experimental, before meeting at the communal.
+«««This research eventually developed into a diagram of categorisation. By capturing different aspects of how dust is realized, the diagram transformed into a research tool—a communal platform acting as a layer between the |obsessor|ovservor| and the |obsessed|observed|. Within the intersection of these two perspectives, the acknowledgment of both sides occurs by passing through the layers of the <span class="research-link" onclick="spawn('Folded Cup Diagram')">#Folded Cup Diagram</span>, beginning with the abstract, geological, ecological, theoretical, and experimental, before meeting at the communal.
 
-«««Following feedback and a series of meetings #A Thousand Plateaus, I realised that categorisation is limiting to this research. At the same time, visualising my thoughts has increased their visibility, bringing me closer to refining the research question. That is where I decided to #3D print the diagram to explain its dynamic of flattening the layers of research and topics.
+«««Following feedback and a series of meetings <span class="research-link" onclick="spawn('From A Thousand Plateaus')">#A Thousand Plateaus</span>, I realised that categorisation is limiting to this research. At the same time, visualising my thoughts has increased their visibility, bringing me closer to refining the research question. That is where I decided to <span class="research-link" onclick="spawn('3D print the diagram')">#3D print the diagram</span> to clarify its dynamic of flattening the layers of research and topics.
 
 ««««In relation to this process of 3D printing, I started looking at the object as a research method located in-between the subject matter. Its dimensions, measurements, and relation to reality comprise or articulate the research method. Would this then question the act of appreciation and noticing dust? Or would it expand the act of care in noticing the observed (dust, in this case), which then intercepts a momentary question of noticing the in-between of the observer and the observed? That then relinquished the perspective points of the observer and the observed because what matters now is the in-between. 
 
 ««««Repeating the same object in different forms has produced different forms of research; by noticing the in-between, all matter becomes a research method—flowing and intersecting endlessly. In this situation, I have chosen a rock I found while visiting a Baalbek Roman temple. I have called it the #Temple of the Sun experiment.
 
-
-
-
-    
-
     `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
+  // add images from asset
+  // explain how an error in the orinting uncovered a emthod of acknowledging any object as a research method
+  // <img src="assets/3DCUP/IMG_9331" class="inline-image">
+  "3D print the diagram": {
+    title: "3D print the diagram",
+    content: `
+    <img src="assets/3DCUP/IMG_9331" class="inline-image">
+    <img src="assets/3DCUP/IMG_9333" class="inline-image">
+    <img src="assets/3DCUP/IMG_9330" class="inline-image">
+    <img src="assets/3DCUP/MG_9329" class="inline-image">
+    `,
+    type: "text",
     textColor: "#000000",
   },
   "": {
