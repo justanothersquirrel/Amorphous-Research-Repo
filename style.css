@@ -1,7 +1,306 @@
-html, body {
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* 1. Put the canvas on the highest layer possible */
+  z-index: 9999;
+
+  /* 2. Allow the mouse to "click through" the dust to reach the windows */
+  pointer-events: none;
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-canvas {
+
+html,
+
+/* body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents scrollbars from creating white gaps 
+  background-color: #ffffff;
+} 
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+.content-pane {
+  /* ... your other styles ... */
+  white-space: pre-wrap; /* This makes the window respect the "Enters" you hit in your code */
+
+  position: relative; /* Essential to anchor the scribble canvas */
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  background: white;
+}
+
+.win-box {
+  position: absolute;
+  background: rgb(255, 0, 0);
+  border: 1px solid #000000;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  resize: both;
+  overflow: hidden;
+  /* box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.05); */
+}
+
+.win-header {
+  background: rgb(255, 255, 255);
+  color: #0048ff;
+  padding: 10px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  font-family: Courier;
+  font-size: 14px;
+}
+
+.win-body {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+}
+
+.content-pane {
+  flex: 1; /* Now takes up 100% of the window */
+  overflow-y: auto;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+  line-height: 1.6;
+}
+
+/* Scrollbar Styling for a cleaner look */
+.content-pane::-webkit-scrollbar {
+  width: 5px;
+}
+.content-pane::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+.research-link {
+  background: none; /* No background color */
+  border: none; /* No border */
+  color: #0048ff; /* Change this to any color (e.g., Red) */
+  /* text-decoration: underline; */
+  cursor: crosshair;
+  font-weight: normal;
+  font-family: Courier;
+  font-size: 14px;
+}
+
+.close-btn {
+  background: none; /* No background color */
+  border: none; /* A thin white border to match header text */
+  color: #000000; /* White text */
+  font-family: monospace;
+  font-size: 10px;
+  padding: 2px 6px;
+  cursor: pointer;
+  text-transform: uppercase; /* Makes text uppercase */
+  transition: all 0.2s; /* Makes the hover effect smooth */
+}
+
+.inline-image {
+  width: 70%; /* Makes the image fill the window width */
+  height: auto; /* Maintains the image proportions */
+  margin-top: 20px; /* Adds some space between the text and the image */
+  display: block;
+  border: 1px solid #ffffff; /* Optional: a very faint border to match the minimal style */
+
+  /* Optional: If you want the image to be Black & White to match your theme */
+  /* filter: grayscale(100%); */
+}
+
+/* Red for warnings or critical findings */
+.text-red {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+/* Grey for side-notes or uncertain thoughts */
+.text-grey {
+  color: #888888;
+}
+
+/* Blue for specific biological observations */
+.text-blue {
+  color: #0037ff;
+}
+
+/* Or a custom highlight color (text color + background) */
+.text-highlight {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 0 2px;
+}
+
+/* A basic rectangle/square around text */
+.shape-box {
+  border: 1px solid #000;
+  padding: 10px;
+  display: inline-block; /* Makes the box fit the text size */
+  margin: 10px 0;
+}
+
+/* A large rectangle that acts as a container or separator */
+.shape-rect {
+  width: 100%;
+  height: 2px;
+  background-color: #ff0000;
+  position: relative;
+  margin: 1px 0;
+}
+
+/* A perfect circle */
+.shape-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto; /* Centers it */
+}
+
+/* A "Mark" (like a small square button or point) */
+.shape-point {
+  width: 8px;
+  height: 8px;
+  background: #000;
+
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.shape {
+  border: 1px solid #ff5500; /* Minimalist border */
+  display: inline-block; /* Lets it sit near text */
+  position: relative; /* Allows for "nudging" with top/left */
+  box-sizing: border-box;
+}
+
+.scribble-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Allows you to click links/text through the scribble */
+  z-index: 5; /* Sits on top of the text */
+}
+
+/* Container for the sentence and its tag */
+.tagged-line {
+  position: relative;
+  display: block;
+  margin-bottom: 10px;
+  padding-right: 60px; /* Space for the tag on the right */
+}
+
+/* The actual Tag style */
+.relating-to {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 9px;
+  font-family: monospace;
+  background: #000;
+  color: #fff;
+  padding: 2px 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.side-tag:hover {
+  background: #444;
+  padding-right: 10px; /* Expands slightly when hovered */
+}
+
+/* The container inside the window */
+.ticker-window-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Hides the text as it leaves the window */
+  background: #fff;
+}
+
+/* The moving text string */
+.ticker-inner {
+  white-space: nowrap;
+  font-family: monospace;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #0000ff;
+  display: inline-block;
+  animation: ticker-window-loop 60s linear infinite;
+  padding-left: 20px;
+}
+
+/* The Loop Animation */
+@keyframes ticker-window-loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* Moves halfway because text is doubled */
+}
+
+.ticker-phrase {
+  margin-right: 50px; /* Space between phrases */
+  font-weight: bold;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%; /* Leaves a little white space on the sides */
+  height: auto;
+  padding: 10px 0;
+}
+
+/* The container that holds both the link and the hidden video */
+.link-preview-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The video preview - styled like a ghostly GIF */
+.hover-preview-video {
+  display: none;             /* Hidden by default */
+  position: absolute;
+  bottom: 120%;              /* Sits above the text */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;              /* Small preview size */
+  border: 1px solid #000;
+  background: #fff;
+  pointer-events: none;      /* Important: click goes through to the link */
+  z-index: 1000;
+  opacity: 0.8;              /* Makes it feel ghostly/amorphous */
+  filter: grayscale(100%);   /* Keeps the monochrome aesthetic */
+}
+
+/* Show the video when the container is hovered */
+.link-preview-container:hover .hover-preview-video {
   display: block;
 }
