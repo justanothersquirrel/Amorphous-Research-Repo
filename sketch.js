@@ -573,8 +573,10 @@ amenable قابل للتعديل
   },
 
   /*----------------------------------------------------Mapping the Development Content"
-                        Included pages:
+                        Included Tags:
                                 How to Notice Dust? 
+                        Included pages:
+                                
                                 
   */
   "Mapping the Development": {
@@ -640,6 +642,13 @@ I began with dust that was within reach (on my bedside table and my desk) compri
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
+
+    /*----------------------------------------------------Modulating the Question Content
+                        Included pages:
+                                -
+                                -
+  */
+
   "": {
     title: "",
     content: ``,
