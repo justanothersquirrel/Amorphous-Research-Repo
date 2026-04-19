@@ -608,13 +608,32 @@ I began with dust that was within reach (on my bedside table and my desk) compri
   "3D print the diagram": {
     title: "3D print the diagram",
     content: `
-    <img src="assets/3DCUP/IMG_9331.jpg" class="inline-image">
-    <img src="assets/3DCUP/IMG_9333.jpg" class="inline-image">
-    <img src="assets/3DCUP/IMG_9330.jpg" class="inline-image">
-    <img src="assets/3DCUP/IMG_9329.jpg" class="inline-image">
+The ability to translate the folded cup diagram into a physical object has developed the research. The 3D printer created beads of material laid down by the printers nozzle, which expanded the way I acknowledge the diagram. 
+<img src="assets/3DCUP/IMG_9330.jpg" class="inline-image">
+<img src="assets/3DCUP/IMG_9333.jpg" class="inline-image">
+<img src="assets/3DCUP/IMG_9331.jpg" class="inline-image">
+<img src="assets/3DCUP/IMG_9374.jpg" class="inline-image">
+<img src="assets/3DCUP/IMG_9329.jpg" class="inline-image">
+
+If each layer in the drawing had a purpose, and if the 3D-printed version was replicating the drawn diagram, I began by asking: what if each bead or any shape, edge, or even the tiny layering (strata) of the print replicated one of the dimensions the diagram proposed? I started imagining that if each bead is an iteration of the research, then the resulting shape of the print will, in turn, shape the research approach or method. These extensions are destined to carve the research layers. Here is where two concepts emerged: experimenting on the space in-between, and looking at any subject matter as the form upon which the research method will act. 
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+÷
+
+A graphic score is creates musical notation system. 
     `,
     type: "text",
-    textColor: "#000000",
+    textColor: "#dd260a",
   },
 
   "a rock I found while visiting a Baalbek Roman temple": {
@@ -643,7 +662,7 @@ I began with dust that was within reach (on my bedside table and my desk) compri
     textColor: "#000000",
   },
 
-    /*----------------------------------------------------Modulating the Question Content
+  /*----------------------------------------------------Modulating the Question Content
                         Included pages:
                                 -
                                 -
