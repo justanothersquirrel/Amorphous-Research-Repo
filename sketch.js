@@ -625,10 +625,11 @@ I began with dust that was within reach (on my bedside table and my desk) compri
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
+
   // add images of rock
   // add images of experimtent and video
   "Temple of the Sun": {
-    title: "",
+    title: "Temple of the Sun",
     content: ``,
     type: "text", //"image" - "sound"
     textColor: "#000000",
