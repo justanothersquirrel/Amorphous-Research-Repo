@@ -259,11 +259,13 @@ _____________________________________________________________________
   },
   "Function input VERBS output": {
     title: "Function input VERBS output",
-    content: `This idea became visible while thinking of measuring as a mean of analysing and understanding the subject matter || Dust. 
-to measure is a verb, and in computational thinking there is input (beginning a story or an idea) - then the measurement taken to digest, experiment, examine the idea - then the output (finalising the idea or finding the answer or the other side of the story) 
-in a computer there is: input - measure (verb) - output. 
-when I take out measure and replace it with other verbs for example: drive - experiment - investigate - explore - poke -collect - observe - eat - walk...
-at that point in the amorphous research finding the answer or shaping a matter for an output/come became a way to observe subject matter through objects which then started the idea of the "in-between-ness" 
+    content: `This idea became visible while thinking of measuring as a means of analysing and understanding the subject matter, dust.
+
+To measure is a verb, and in computational thinking, there is input (beginning a story or an idea), followed by the measurement taken to digest, experiment with, or examine the idea, and then the output (finalising the idea, finding the answer, or revealing the other side of the story).
+
+In a computer, the logic is: input – measure (verb) – output.
+
+When I remove 'measure' and replace it with other verbs—for example: drive, experiment, investigate, explore, poke, collect, observe, eat, walk—the research shifts. At that point, in Amorphous Research, finding the answer or shaping matter for an output (or outcome) becomes a way to observe subject matter through objects, which then initiated the idea of "in-between-ness".<span class="research-link" onclick="spawn('From A Thousand Plateaus')">#A Thousand Plateaus</span>
       `,
     type: "text",
     textColor: "#000000",
@@ -479,7 +481,7 @@ Colours does not matter, the information’s ecology is free, it is all one/non 
   "Highlighted text from A thousand Plateaus": {
     title: "Highlighted text from A thousand Plateaus",
     content: `
-<img src="assets/Deleuze_and_Guattari_A_Thousand_Plateaus-page10.jpg" class="img-center" style="pointer-events: auto;">
+<img src="assets/Deleuze_and_Guattari_A_Thousand_Plateaus-page10.jpg" class="img-center" style="pointer-events: auto;">↑<span class="research-link" onclick="spawn('Function input VERBS output')">#Function input VERBS output</span>↑
 <img src="assets/Deleuze_and_Guattari_A_Thousand_Plateaus-endless 0 and 1.jpg" class="img-center" style="pointer-events: auto;">
 <img src="assets/Deleuze_and_Guattari_A_Thousand_Plateaus-and and and.jpg" class="img-center" style="pointer-events: auto;">
 <img src="assets/Deleuze_and_Guattari_A_Thousand_Plateaus-map not trace.jpg" class="img-center" style="pointer-events: auto;">
@@ -558,37 +560,47 @@ I began with dust that was within reach (on my bedside table and my desk) compri
 
 «««This research eventually developed into a diagram of categorisation. By capturing different aspects of how dust is realized, the diagram transformed into a research tool—a communal platform acting as a layer between the |obsessor|ovservor| and the |obsessed|observed|. Within the intersection of these two perspectives, the acknowledgment of both sides occurs by passing through the layers of the <span class="research-link" onclick="spawn('Folded Cup Diagram')">#Folded Cup Diagram</span>, beginning with the abstract, geological, ecological, theoretical, and experimental, before meeting at the communal.
 
-«««Following feedback and a series of meetings <span class="research-link" onclick="spawn('From A Thousand Plateaus')">#A Thousand Plateaus</span>, I realised that categorisation is limiting to this research. At the same time, visualising my thoughts has increased their visibility, bringing me closer to refining the research question. That is where I decided to <span class="research-link" onclick="spawn('3D print the diagram')">#3D print the diagram</span> to clarify its dynamic of flattening the layers of research and topics.
+«««Following feedback and a series of meetings <span class="research-link" onclick="spawn('From A Thousand Plateaus')">#A Thousand Plateaus</span>, I realised that categorisation is limiting to this research. At the same time, visualising my thoughts has increased their visibility, bringing me closer to refining the research question. That is where I decided to <span class="research-link" onclick="spawn('3D print the diagram')">3D print the diagram</span> to clarify its dynamic of flattening the layers of research and topics.
 
 ««««In relation to this process of 3D printing, I started looking at the object as a research method located in-between the subject matter. Its dimensions, measurements, and relation to reality comprise or articulate the research method. Would this then question the act of appreciation and noticing dust? Or would it expand the act of care in noticing the observed (dust, in this case), which then intercepts a momentary question of noticing the in-between of the observer and the observed? That then relinquished the perspective points of the observer and the observed because what matters now is the in-between. 
 
-««««Repeating the same object in different forms has produced different forms of research; by noticing the in-between, all matter becomes a research method—flowing and intersecting endlessly. In this situation, I have chosen a rock I found while visiting a Baalbek Roman temple. I have called it the #Temple of the Sun experiment.
+««««Repeating the same object in different forms has produced different forms of research; by noticing the in-between, all matter becomes a research method—flowing and intersecting endlessly. In this situation, I have chosen <span class="research-link" onclick="spawn('a rock I found while visiting a Baalbek Roman temple')">a rock I found while visiting a Baalbek Roman temple</span>. for the purpose of this research I named the experiment <span class="research-link" onclick="spawn('Temple of the Sun')">Temple of the Sun</span>.
 
     `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  // add images from asset
+
   // explain how an error in the orinting uncovered a emthod of acknowledging any object as a research method
-  // <img src="assets/3DCUP/IMG_9331" class="inline-image">
   "3D print the diagram": {
     title: "3D print the diagram",
     content: `
-    <img src="assets/3DCUP/IMG_9331" class="inline-image">
-    <img src="assets/3DCUP/IMG_9333" class="inline-image">
-    <img src="assets/3DCUP/IMG_9330" class="inline-image">
-    <img src="assets/3DCUP/MG_9329" class="inline-image">
+    <img src="assets/3DCUP/IMG_9331.jpg" class="inline-image">
+    <img src="assets/3DCUP/IMG_9333.jpg" class="inline-image">
+    <img src="assets/3DCUP/IMG_9330.jpg" class="inline-image">
+    <img src="assets/3DCUP/IMG_9329.jpg" class="inline-image">
     `,
     type: "text",
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
+
+  // add video link finding rock
+  // addscreen shot of news
+
+  "a rock I found while visiting a Baalbek Roman temple": {
+    title: "a rock I found while visiting a Baalbek Roman temple",
+    content: `
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tp6rPIX_wqA?si=H7KYcgQIkwN8oEM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<img src="assets/ROCK/israel strikes.jpg" class="inline-image">
+    
+    `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
+  // add images of rock
+  // add images of experimtent and video
+  "Temple of the Sun": {
     title: "",
     content: ``,
     type: "text", //"image" - "sound"
@@ -876,23 +888,36 @@ window.spawn = function (id) {
 };
 
 window.spawnRandom = function (count) {
-  // 1. Get all available keys from your research library
+  // 1. Get all IDs
   let allKeys = Object.keys(researchData);
 
-  // 2. Shuffle the array randomly (Fisher-Yates shuffle)
-  for (let i = allKeys.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [allKeys[i], allKeys[allKeys[j]]] = [allKeys[allKeys[j]], allKeys[i]];
+  // 2. Filter out 'start' AND any window that is already open on the screen
+  let openWindowTitles = selectAll(".win-box").map((div) => {
+    // Get the title text from the header of currently open windows
+    return div.elt.querySelector(".win-header span").innerText;
+  });
+
+  let availableKeys = allKeys.filter((key) => {
+    let item = researchData[key];
+    return key !== "start" && !openWindowTitles.includes(item.title);
+  });
+
+  // 3. If everything is already open, reset (or do nothing)
+  if (availableKeys.length === 0) {
+    console.log("All research nodes are already on the desk.");
+    return;
   }
 
-  // 3. Select the first 'count' number of keys
-  let selection = allKeys.slice(0, count);
+  // 4. Shuffle available items
+  for (let i = availableKeys.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [availableKeys[i], availableKeys[j]] = [availableKeys[j], availableKeys[i]];
+  }
 
-  // 4. Spawn them with a staggered delay
+  // 5. Spawn the requested number
+  let selection = availableKeys.slice(0, count);
   selection.forEach((id, index) => {
-    setTimeout(() => {
-      spawn(id);
-    }, index * 200); // Opens one every 0.2 seconds
+    setTimeout(() => spawn(id), index * 200);
   });
 };
 
