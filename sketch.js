@@ -99,7 +99,8 @@ Therefore I am able to critically or artistically find answers to a simple quest
   },
   "Folded Cup Diagram": {
     title: "Folded Cup Diagram",
-    content: `<img src="assets/Amorphous-research-diagram-01.jpg" class="img-center" >
+    content: `
+    <img src="assets/Amorphous-research-diagram-Sketch.jpg" class="img-center" ><img src="assets/Amorphous-research-diagram-01.jpg" class="img-center" >
 The Folded Cup Diagram is the first representation on how translating the notion of dust is going to pass through different layers of knoweldge, how both sides acknwoeldge each other, the sender and the reciever. Deciding to research dust and its vast layers of information through a mirror diagram. This diagram consists of two perspectives reflecting on each others existence as matter.
 
 Experimenting with the idea of research to find different ways of approaching the matter (dust) in existing and non-existing dimensions.
