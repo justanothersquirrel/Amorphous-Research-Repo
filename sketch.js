@@ -665,65 +665,81 @@ A graphic score is creates musical notation system.
     title: "Temple of the Sun experiment",
     content: `This ongoing experiment replicates the rock in different materials and shapes, prompting different ways of communicating with the rock through producing different dimensions of its reality.
 
-replication_photogrammetry scan of the rock
+<span class="research-link" onclick="spawn('replication_photogrammetry scan of the rock')">replication_photogrammetry scan of the rock</span>
 __Holding the rock with a hand,
 __Holding the phone holding the rock in my hand,
-__Airdropping the rock on the desktop (it didn’t break or did it)
+__Airdropping the rock on the desktop (it didnt break or did it)
 __Holding my focus on the rock, through a phone, with a handy hand, by a desktop…
 
-replication_3D printing the rock
+<span class="research-link" onclick="spawn('replication_3D printing the rock')">replication_3D printing the rock</span>
 __Using the scan to transfer the rock into the physical dimension.
-__Noticing the 3D printer’ deciding on layering the rock. 
+__<span class="research-link" onclick="spawn('Noticing the 3D printer deciding on layering the rock.')">Noticing the 3D printer deciding on layering the rock.</span>
 __Collaborating with the machine. 
 
-replication_skewing the rock
+<span class="research-link" onclick="spawn('replication_skewing the rock')">replication_skewing the rock</span>
 __Changing the topography or the rocks surface, keeping in mind the how would the research become in the rocks different conditions.
 
-Replication_on screen 
+<span class="research-link" onclick="spawn('replication_on screen')">replication_on screen</span>
 __Using blender slicing the rock into sections, and replicating one of the sections. 
 
-replication_CNC
+<span class="research-link" onclick="spawn('replication_CNC')">replication_CNC</span>
 __Using fusion360, detailed observation of the rock and its sections. Excavating for a replication of the rock.
+
+  <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9339.jpg" class="img-center">
+
 `,
+    type: "text",
+    textColor: "#000000",
+  },
+
+  "replication_photogrammetry scan of the rock": {
+    title: "replication_photogrammetry scan of the rock",
+    content: "https://www.youtube.com/embed/ZeJ62mYhLms?si=yP6tEicVm9ctWZLf",
+    type: "video",
+    textColor: "#000000",
+  },
+
+  "replication_3D printing the rock": {
+    title: "replication_3D printing the rock",
+    content: `<img src="assets/3DROCK/Rock-mirror-repeat-3DP_9343.jpg" class="inline-image">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9345.jpg" class="inline-image">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9346.jpg" class="inline-image">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9347.jpg" class="inline-image">
+    `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
 
- "replication_photogrammetry scan of the rock": {
-    title: "replication_photogrammetry scan of the rock",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  
-  "replication_3D printing the rock": {
-    title: "replication_3D printing the rock",
-    content: ``,
-    type: "text", //"image" - "sound"
+  "Noticing the 3D printer deciding on layering the rock.": {
+    title: "Noticing the 3D printer deciding on layering the rock.",
+    content: "https://www.youtube.com/embed/S08Fr4E78GQ?si=W1X_YQoFCjrgU5dH",
+    type: "video",
     textColor: "#000000",
   },
 
   "replication_skewing the rock": {
     title: "replication_skewing the rock",
+    content: `<img src="assets/3DROCK/Rock-mirror-repeat-3DP_9340.jpg" class="inline-image">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9341.jpg" class="inline-image">
+   <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9342.jpg" class="inline-image"> `,
+    type: "text",
+    textColor: "#000000",
+  },
+
+  "replication_on screen": {
+    title: "replication_on screen",
     content: ``,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
 
-  "replication_CNC": {
+  replication_CNC: {
     title: "replication_CNC",
     content: ``,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
 
-  "replication_CNC": {
-    title: "replication_CNC",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  
   /*----------------------------------------------------Modulating the Question Content
                         Included pages:
                                 -
