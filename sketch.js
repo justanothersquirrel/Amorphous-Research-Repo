@@ -18,6 +18,7 @@ let researchData = {
                             Mapping the Development ΩΩΩΩΩΩΩ
                             تحوير السؤال Modulating the Question ؟؟؟؟؟؟؟؟ 
                             sender and receiver reflection ∞∞∞∞∞∞∞∞∞ 
+                            Semi-Mutating the research •••••••••••
   */
   start: {
     title: "Amorphous Research || Dust",
@@ -54,6 +55,8 @@ let researchData = {
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 ∞∞∞∞∞ <span class="research-link" onclick="spawn('sender and receiver reflection')">a study on sender and receiver</span>∞∞∞∞∞∞∞∞∞∞∞
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+••••••••••••••••••••••••••••••••••••••••••••
+••••••••••••••••••••••••••••••••••••••••••••
 
 This website was created to transfer and share information about an ongoing research that is Amorphous about Dust. Dust has not been specified until now. 
 
@@ -800,8 +803,8 @@ How to shape research by passing through <span class="research-link" onclick="sp
 
   /*----------------------------------------------------sender and receiver reflection Content
                         Included pages:
-                                -
-                                -
+                                The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton
+                                Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11
   */
   "sender and receiver reflection": {
     title: "sender and receiver reflection",
@@ -827,7 +830,7 @@ B = human  or dust - ripe mango - fermented tofu….
 “<span class="research-link" onclick="spawn('Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11')"> Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11</span> The book or physical instance, then, is one of many levels of address. Backing out into a larger population, we might take a genre of works to be the relevant level of address. Or we could talk about individual lines of print; all the nouns in every line; every third character in every third line. All of this variation implies massive flexibility in levels of address. And more provocatively: when we create a digitized population of texts, our modes of address become more and more abstract: all concrete nouns in all the items in the collection, for example, or every item identified as a ‘History’ by Heminges and Condell in the First Folio. Every level is a provisional unity: stable for the purposes of address, but also: stable because it is the object of address. Books are such provisional unities. So are all the proper names in the phone book. … To have this thought is to dispose relevant elements in the dataset in much the same way a spreadsheet aggregates a text in ways that allow for layered access. A reader is a maker [emphasis mine] of such a momentary dispositif, and reading might be described as the continual[…]”
 
     `,
-    type: "text", //"image" - "sound"
+    type: "text", 
     textColor: "#000000",
   },
   "The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton": {
@@ -835,7 +838,7 @@ B = human  or dust - ripe mango - fermented tofu….
       "The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton",
     content:
       "https://observatory.constantvzw.org/books/benjamin-h-bratton-the-stack-on-software-and-sovereignty-2.pdf",
-    type: "link", //"image" - "sound"
+    type: "link", 
     textColor: "#000000",
   },
   "Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11":
@@ -852,9 +855,18 @@ B = human  or dust - ripe mango - fermented tofu….
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
-    title: "",
+
+/*----------------------------------------------------Semi-Mutating the research Content
+                        Included pages:
+                                The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton
+                                Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11
+  */
+
+  "Semi-Mutating the research": {
+    title: "Semi-Mutating the research",
     content: `
+
+    Repurposing>Transposing>Transmuting>Semi-Transmuting> Semi-Mutating the research
       `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
@@ -1021,11 +1033,6 @@ B = human  or dust - ripe mango - fermented tofu….
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  /*----------------------------------------------------Repurposing the research Content
-                        Included pages:
-                                -
-                                -
-  */
   "": {
     title: "",
     content: ``,

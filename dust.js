@@ -58,10 +58,15 @@ class Dust {
     // --- THE THINNESS SECRET ---
     // We keep the stroke weight very low (0.1 to 0.5)
     // regardless of how "Big" (Long) the fiber is.
-    let weight = map(this.scale, 0.1, 50, 0.1, 0.4);
+    // Inside the show() method of the Dust class
+    // frameCount * 0.05 controls the speed of the pulse
+    let pulse = sin(frameCount * 0.01);
+
+    // Map -1 to 1 into the range 0 to 0.1
+    let weight = map(pulse, -1, 1, 0, 0.08);
 
     stroke(0, 0, 255); // Dark grey but transparent
-    strokeWeight(0.2);
+    strokeWeight(weight);
     noFill();
 
     push();
