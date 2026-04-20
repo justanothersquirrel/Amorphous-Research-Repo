@@ -61,7 +61,7 @@ class Dust {
     let weight = map(this.scale, 0.1, 50, 0.1, 0.4);
 
     stroke(0, 0, 255); // Dark grey but transparent
-    strokeWeight(weight);
+    strokeWeight(0.2);
     noFill();
 
     push();

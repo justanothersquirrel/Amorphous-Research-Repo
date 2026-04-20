@@ -653,23 +653,39 @@ A graphic score is creates musical notation system.
 
   "Meet the Rock here": {
     title: "Meet the rock",
-    content: `<img src="assets/ROCK/Rock-original_9338.jpg" class="inline-image">
-    <img src="assets/ROCK/Rock-original_9334.jpg" class="inline-image">
-<img src="assets/ROCK/Rock-original_9335.jpg" class="inline-image">
-<img src="assets/ROCK/Rock-original_9336.jpg" class="inline-image">`,
+    content: `<img src="assets/ROCK/Rock-original_9338.jpg" class="img-center">
+    <img src="assets/ROCK/Rock-original_9334.jpg" class="img-center">
+<img src="assets/ROCK/Rock-original_9335.jpg" class="img-center">
+<img src="assets/ROCK/Rock-original_9336.jpg" class="img-center">`,
     type: "text",
     textColor: "#000000",
   },
 
-  // add images of rock
-  // add images of experimtent and video
-
   "Temple of the Sun": {
-    title: "Temple of the Sun",
-    content: ``,
+    title: "Temple of the Sun experiment",
+    content: `This ongoing experiment replicates the rock in different materials and shapes, prompting different ways of communicating with the rock through producing different dimensions of its reality.
+
+replication_photogrammetry scan of the rock
+__Holding the rock with a hand;
+__Holding the phone holding the rock in my hand,
+__Airdropping the rock on the desktop (it didn’t break or did it)
+__Holding my focus on the rock, through a phone, with a handy hand, by a desktop…
+replication_3D printing the rock
+__Using the scan to transfer the rock into the physical dimension.
+__Noticing the 3D printer’ deciding on layering the rock. 
+__Collaborating with the machine. 
+replication_skewing the rock
+__Changing the topography or the rocks surface, keeping in mind the how would the research become in the rocks different conditions.
+Replication_on screen 
+__Using blender slicing the rock into sections, and replicating one of the sections. 
+replication_CNC
+__Using fusion360, detailed observation of the rock and its sections. Excavating for a replication of the rock.
+`,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
+
+
   /*----------------------------------------------------Modulating the Question Content
                         Included pages:
                                 -
