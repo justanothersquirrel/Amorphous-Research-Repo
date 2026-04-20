@@ -657,13 +657,13 @@ A graphic score is creates musical notation system.
     <img src="assets/ROCK/Rock-original_9334.jpg" class="inline-image">
 <img src="assets/ROCK/Rock-original_9335.jpg" class="inline-image">
 <img src="assets/ROCK/Rock-original_9336.jpg" class="inline-image">`,
-    type: "image", //"image" - "sound"
+    type: "text",
     textColor: "#000000",
   },
 
   // add images of rock
   // add images of experimtent and video
-  
+
   "Temple of the Sun": {
     title: "Temple of the Sun",
     content: ``,
