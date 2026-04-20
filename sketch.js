@@ -604,7 +604,6 @@ I began with dust that was within reach (on my bedside table and my desk) compri
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-
   "3D print the diagram": {
     title: "3D print the diagram",
     content: `
@@ -635,7 +634,6 @@ A graphic score is creates musical notation system.
     type: "text",
     textColor: "#dd260a",
   },
-
   "a rock I found while visiting a Baalbek Roman temple": {
     title: "a rock I found while visiting a Baalbek Roman temple",
     content: `
@@ -650,7 +648,6 @@ A graphic score is creates musical notation system.
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-
   "Meet the Rock here": {
     title: "Meet the rock",
     content: `<img src="assets/ROCK/Rock-original_9338.jpg" class="img-center">
@@ -660,7 +657,6 @@ A graphic score is creates musical notation system.
     type: "text",
     textColor: "#000000",
   },
-
   "Temple of the Sun": {
     title: "Temple of the Sun experiment",
     content: `This ongoing experiment replicates the rock in different materials and shapes, prompting different ways of communicating with the rock through producing different dimensions of its reality.
@@ -682,8 +678,10 @@ __Changing the topography or the rocks surface, keeping in mind the how would th
 <span class="research-link" onclick="spawn('replication_on screen')">replication_on screen</span>
 __Using blender slicing the rock into sections, and replicating one of the sections. 
 
-<span class="research-link" onclick="spawn('replication_CNC')">replication_CNC</span>
-__Using fusion360, detailed observation of the rock and its sections. Excavating for a replication of the rock.
+<span class="research-link" onclick="spawn('replication_Computer Numerical Control')">replication_Computer Numerical Control</span>
+__Using fusion360-CNC, detailed observation of the rock and its sections. 
+__<span class="research-link" onclick="spawn('Excavating for a replication of the rock.')">Excavating for a replication of the rock.</span>
+__Its everywhereº 
 
   <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9339.jpg" class="img-center">
 
@@ -691,52 +689,52 @@ __Using fusion360, detailed observation of the rock and its sections. Excavating
     type: "text",
     textColor: "#000000",
   },
-
   "replication_photogrammetry scan of the rock": {
     title: "replication_photogrammetry scan of the rock",
     content: "https://www.youtube.com/embed/ZeJ62mYhLms?si=yP6tEicVm9ctWZLf",
     type: "video",
     textColor: "#000000",
   },
-
   "replication_3D printing the rock": {
     title: "replication_3D printing the rock",
-    content: `<img src="assets/3DROCK/Rock-mirror-repeat-3DP_9343.jpg" class="inline-image">
-    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9345.jpg" class="inline-image">
-    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9346.jpg" class="inline-image">
-    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9347.jpg" class="inline-image">
+    content: `<img src="assets/3DROCK/Rock-mirror-repeat-3DP_9343.jpg" class="img-center">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9345.jpg" class="img-center">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9346.jpg" class="img-center">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9347.jpg" class="img-center">
     `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-
   "Noticing the 3D printer deciding on layering the rock.": {
     title: "Noticing the 3D printer deciding on layering the rock.",
     content: "https://www.youtube.com/embed/S08Fr4E78GQ?si=W1X_YQoFCjrgU5dH",
     type: "video",
     textColor: "#000000",
   },
-
   "replication_skewing the rock": {
     title: "replication_skewing the rock",
-    content: `<img src="assets/3DROCK/Rock-mirror-repeat-3DP_9340.jpg" class="inline-image">
-    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9341.jpg" class="inline-image">
-   <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9342.jpg" class="inline-image"> `,
+    content: `<img src="assets/3DROCK/Rock-mirror-repeat-3DP_9340.jpg" class="img-center">
+    <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9341.jpg" class="img-center">
+   <img src="assets/3DROCK/Rock-mirror-repeat-3DP_9342.jpg" class="img-center"> `,
     type: "text",
     textColor: "#000000",
   },
-
   "replication_on screen": {
     title: "replication_on screen",
-    content: ``,
-    type: "text", //"image" - "sound"
+    content: "https://www.youtube.com/embed/mpyhl89jQbw?si=R4WJ9RKr0vH-J0RK",
+    type: "video", 
     textColor: "#000000",
   },
-
-  replication_CNC: {
-    title: "replication_CNC",
-    content: ``,
-    type: "text", //"image" - "sound"
+  "replication_Computer Numerical Control": {
+    title: "replication_Computer Numerical Control",
+    content: "https://www.youtube.com/embed/KX0sGbiVhEQ?si=g21JXty3F_iUXxrJ",
+    type: "video", 
+    textColor: "#000000",
+  },
+    "Excavating for a replication of the rock.": {
+    title: "Excavating for a replication of the rock.",
+    content: "https://www.youtube.com/embed/KHRQZIfc8Lw?si=WE40JR1TLwMJbTSA",
+    type: "video", 
     textColor: "#000000",
   },
 
