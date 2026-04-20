@@ -55,8 +55,14 @@ let researchData = {
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 ∞∞∞∞∞ <span class="research-link" onclick="spawn('sender and receiver reflection')">a study on sender and receiver</span>∞∞∞∞∞∞∞∞∞∞∞
 ∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
-••••••••••••••••••••••••••••••••••••••••••••
-••••••••••••••••••••••••••••••••••••••••••••
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+•••••••••••••••<span class="research-link" onclick="spawn('Semi-Mutating the research')">Semi-Mutating the research</span>•••••••••••••••••••••••••
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
 
 This website was created to transfer and share information about an ongoing research that is Amorphous about Dust. Dust has not been specified until now. 
 
@@ -771,10 +777,9 @@ __Its everywhereº
 
   /*---------------------------------------------------->Modulating the Question تحوير السؤال< Content
                         Included pages:
-                                -
-                                -
-  */
+                                -subject-matter
 
+  */
   ">Modulating the Question<": {
     title: ">Modulating the Question< >تحوير السؤال<",
     content: `<p><del>At this point of developing the research the question that I’m about to ask kinships from the previous proposal and minor experimentation of the physical replication of the object as a research method.<del><p>The replication experiments, communicating with the rock, and the in-between has modulated the research question.<p><del>¡How can the in between be noticed by traveling through the object positioned in the in between?>>the real question might be: What happens to subject/matter when it becomes a tool for research outcomes?<del><p>
@@ -830,7 +835,7 @@ B = human  or dust - ripe mango - fermented tofu….
 “<span class="research-link" onclick="spawn('Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11')"> Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11</span> The book or physical instance, then, is one of many levels of address. Backing out into a larger population, we might take a genre of works to be the relevant level of address. Or we could talk about individual lines of print; all the nouns in every line; every third character in every third line. All of this variation implies massive flexibility in levels of address. And more provocatively: when we create a digitized population of texts, our modes of address become more and more abstract: all concrete nouns in all the items in the collection, for example, or every item identified as a ‘History’ by Heminges and Condell in the First Folio. Every level is a provisional unity: stable for the purposes of address, but also: stable because it is the object of address. Books are such provisional unities. So are all the proper names in the phone book. … To have this thought is to dispose relevant elements in the dataset in much the same way a spreadsheet aggregates a text in ways that allow for layered access. A reader is a maker [emphasis mine] of such a momentary dispositif, and reading might be described as the continual[…]”
 
     `,
-    type: "text", 
+    type: "text",
     textColor: "#000000",
   },
   "The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton": {
@@ -838,7 +843,7 @@ B = human  or dust - ripe mango - fermented tofu….
       "The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton",
     content:
       "https://observatory.constantvzw.org/books/benjamin-h-bratton-the-stack-on-software-and-sovereignty-2.pdf",
-    type: "link", 
+    type: "link",
     textColor: "#000000",
   },
   "Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11":
@@ -849,24 +854,25 @@ B = human  or dust - ripe mango - fermented tofu….
       type: "link", //"image" - "sound"
       textColor: "#000000",
     },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
 
-/*----------------------------------------------------Semi-Mutating the research Content
+  /*----------------------------------------------------Semi-Mutating the research Content
                         Included pages:
-                                The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton
-                                Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11
+                              
   */
 
   "Semi-Mutating the research": {
     title: "Semi-Mutating the research",
-    content: `
+    content: `<p style="color:red;"><del>Repurposing > Transposing > Transmuting > Semi-Transmuting</del> Semi-Mutating the research</p>
+This amorphous curiosity is shaping into a research methodologies with the use of the rock and dust orbiting and interweaving, coexisting, gravitating. 
 
-    Repurposing>Transposing>Transmuting>Semi-Transmuting> Semi-Mutating the research
+Through researching different topics in physics, sociology, and philosophy, I have observed a sequence of events where the 'in-between' morphs into different forms of approaching research methods. How can the communication journey between the sender and the receiver be analysed and looked at through the lens of this research method (such as <span class="research-link" onclick="spawn('sender and receiver reflection')">the formula example in sender and reciever text</span> AXB)?. 
+
+Endless methods come from researching and learning different topic. 
+
+Research based-art includes different approaches to the subject/matter that would be: questioned explained elaborated interacted exposed experimented directed investigated refined rinsed purposed interfered disordered ordered...... . . .   .   .    .     .
+
+
+
       `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
