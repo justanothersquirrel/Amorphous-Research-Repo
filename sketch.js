@@ -638,30 +638,38 @@ A graphic score is creates musical notation system.
 
   "a rock I found while visiting a Baalbek Roman temple": {
     title: "a rock I found while visiting a Baalbek Roman temple",
-    content: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Tp6rPIX_wqA?si=H7KYcgQIkwN8oEM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    content: `
+<span class="research-link" onclick="spawn('Meet the Rock here')"> >>>Meet the Rock here<<< </span>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Tp6rPIX_wqA?si=H7KYcgQIkwN8oEM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <img src="assets/ROCK/israel strikes.jpg" class="inline-image">
 <a href="https://www.bbc.co.uk/news/articles/c86qp55q3vyo" target="_blank" class="research-link">Israeli bombing puts ancient ruins at risk, archaeologists warn</a>
+
     `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
 
+  "Meet the Rock here": {
+    title: "Meet the rock",
+    content: `<img src="assets/ROCK/Rock-original_9338.jpg" class="inline-image">
+    <img src="assets/ROCK/Rock-original_9334.jpg" class="inline-image">
+<img src="assets/ROCK/Rock-original_9335.jpg" class="inline-image">
+<img src="assets/ROCK/Rock-original_9336.jpg" class="inline-image">`,
+    type: "image", //"image" - "sound"
+    textColor: "#000000",
+  },
+
   // add images of rock
   // add images of experimtent and video
+  
   "Temple of the Sun": {
     title: "Temple of the Sun",
     content: ``,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-
   /*----------------------------------------------------Modulating the Question Content
                         Included pages:
                                 -
