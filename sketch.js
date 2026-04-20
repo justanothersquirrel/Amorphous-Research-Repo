@@ -770,16 +770,27 @@ __Its everywhereº
 
   ">Modulating the Question<": {
     title: ">Modulating the Question< >تحوير السؤال<",
-    content: `
-    
+    content: `<p><del>At this point of developing the research the question that I’m about to ask kinships from the previous proposal and minor experimentation of the physical replication of the object as a research method.<del><p>The replication experiments, communicating with the rock, and the in-between has modulated the research question.<p><del>¡How can the in between be noticed by traveling through the object positioned in the in between?>>the real question might be: What happens to subject/matter when it becomes a tool for research outcomes?<del><p>
+
+How is dust noticed when shaped through selected object? 
+    ........................|........................
+    ........................|........................    
+How to shape research by passing through <span class="research-link" onclick="spawn('subject-matter')">subject-matter?</span>
+    .......................º•º.......................
+                Collection of followed leads <p><del>Can objects be folded through computational Art-based research?
+                 What happens to objects or matter when it<del><p> 
+
     `,
     type: "text", //"image" - "sound"
     textColor: "#51a200",
   },
 
-  "": {
-    title: "",
-    content: ``,
+  "subject-matter": {
+    title: "subject-matter",
+    content: `
+    <img src="assets/MODU/vibrant matter latour.jpg" class="img-center">
+    Bennett, Jane. Vibrant Matter: A Political Ecology of Things.
+    `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
