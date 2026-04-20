@@ -10,13 +10,14 @@ let windowStack = 0; // Global counter for stacking windows
 let researchData = {
   /*----------------------------------------------------First Page "Amorphous Research Content"
                         Included pages:
-                                How to Notice Dust? ∑∑∑∑∑
-                                Metric Culture Dust ∑∑∑∑∑
-                                Scripting ˚˚˚˚˚˚˚˚˚˚
-                                From A Thousand Plateaus ¬¬¬¬¬¬¬
-                                Fishing for Words ¬¬¬¬¬¬¬
-                                Mapping the Development ΩΩΩΩΩΩΩ
-                                تحوير السؤال Modulating the Question ؟؟؟؟؟؟؟؟  
+                            How to Notice Dust? ∑∑∑∑∑
+                            Metric Culture Dust ∑∑∑∑∑
+                            Scripting ˚˚˚˚˚˚˚˚˚˚
+                            From A Thousand Plateaus ¬¬¬¬¬¬¬
+                            Fishing for Words ¬¬¬¬¬¬¬
+                            Mapping the Development ΩΩΩΩΩΩΩ
+                            تحوير السؤال Modulating the Question ؟؟؟؟؟؟؟؟ 
+                            sender and receiver reflection ∞∞∞∞∞∞∞∞∞ 
   */
   start: {
     title: "Amorphous Research || Dust",
@@ -50,6 +51,9 @@ let researchData = {
 ؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟
 ؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟<span class="research-link" onclick="spawn('>Modulating the Question<')"> >Modulating the Question< </span> >تحوير السؤال< 
 ؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟
+∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
+∞∞∞∞∞ <span class="research-link" onclick="spawn('sender and receiver reflection')">a study on sender and receiver</span>∞∞∞∞∞∞∞∞∞∞∞
+∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞∞
 
 This website was created to transfer and share information about an ongoing research that is Amorphous about Dust. Dust has not been specified until now. 
 
@@ -774,17 +778,16 @@ __Its everywhereº
 
 How is dust noticed when shaped through selected object? 
     ........................|........................
+    <span class="research-link" onclick="spawn('forensic noticing')">#forensic noticing</span>
     ........................|........................    
 How to shape research by passing through <span class="research-link" onclick="spawn('subject-matter')">subject-matter?</span>
     .......................º•º.......................
                 Collection of followed leads <p><del>Can objects be folded through computational Art-based research?
                  What happens to objects or matter when it<del><p> 
-
     `,
     type: "text", //"image" - "sound"
-    textColor: "#51a200",
+    textColor: "#000000",
   },
-
   "subject-matter": {
     title: "subject-matter",
     content: `
@@ -794,24 +797,55 @@ How to shape research by passing through <span class="research-link" onclick="sp
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
+
+  /*----------------------------------------------------sender and receiver reflection Content
+                        Included pages:
+                                -
+                                -
+  */
+  "sender and receiver reflection": {
+    title: "sender and receiver reflection",
+    content: `
+A reflection or study on The Address chapter in relation to understanding (sender and receiver) in the context of <span class="research-link" onclick="spawn('The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton')">The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton</span> 
+
+adjacent - sender and receiver
+
+This feels like given steps or elaboration on how to deconstruct or observe the categorical establishment in modern governance, which is interesting because the way I see it with analysing and researching dust computationally/algorithmically without relying on categorical or titling things seems complicated/impossible, but yet possible in the existence, as Bratton puts it: between real physical features of the world and these ideal abstractions that:  measure , codify, explain {scale - similarities - differences}.
+
+Making things measurable makes them visible, it is no longer important(?) if visibility implies something that can be seen or touched, as long as we can measure it. I wanted to point the latter understanding because this part of the text has reminded me that objects are sounds as well. I became too existed about working -visually- with holdable object, and with doing so, I forgot the joy of unholdable objects. The text notes that “At different frequencies, different communication networks are provided specific zones of operation so that they won't interfere with one another, including commercial television, broadcast radio, cellular telephony, satellite communication, aeronautical radio, commercial Internet, and secure military lines”
+
+Not just referring to this part but this thought visited in here:
+Although what Im reading currently feels dominated by human interrelations, I would like to look at this book’s content towards a non-post-more than-human perspective. Stating from the text “The Address layer of The Stack develops through both geographical site subdivision and the identification of untethered instances out in the ambient wild, and its governance depends on the linking of one to the other and making them mutually communicable.”
+
+Reading this reinforces my imagination of how the rock of how the <span class="research-link" onclick="spawn('replication_3D printing the rock')">rock</span> can function like the 'book' being explained here. It could become the in-between by connecting different aspects within the layers, in the context of this research, the is the connection and the act of noticing between dust and human, vice versa. This is not limited to dust and human; it is a method that could be applied to any tested matter. 
+
+Perhaps a formula like this: A - X = [the in between journey] - B
+A = dust or human - apple - plastic ….
+X = rock  or microphone - water ….point of
+B = human  or dust - ripe mango - fermented tofu….
+
+“<span class="research-link" onclick="spawn('Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11')"> Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11</span> The book or physical instance, then, is one of many levels of address. Backing out into a larger population, we might take a genre of works to be the relevant level of address. Or we could talk about individual lines of print; all the nouns in every line; every third character in every third line. All of this variation implies massive flexibility in levels of address. And more provocatively: when we create a digitized population of texts, our modes of address become more and more abstract: all concrete nouns in all the items in the collection, for example, or every item identified as a ‘History’ by Heminges and Condell in the First Folio. Every level is a provisional unity: stable for the purposes of address, but also: stable because it is the object of address. Books are such provisional unities. So are all the proper names in the phone book. … To have this thought is to dispose relevant elements in the dataset in much the same way a spreadsheet aggregates a text in ways that allow for layered access. A reader is a maker [emphasis mine] of such a momentary dispositif, and reading might be described as the continual[…]”
+
+    `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
+  "The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton": {
+    title:
+      "The Stack: On Software and Sovereignty, a book by Benjamin H. Bratton",
+    content:
+      "https://observatory.constantvzw.org/books/benjamin-h-bratton-the-stack-on-software-and-sovereignty-2.pdf",
+    type: "link", //"image" - "sound"
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
+  "Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11":
+    {
+      title:
+        " Textuality is massive addressability,” claims digital humanites scholar, Michael Witmore.11",
+      content: "https://winedarksea.org/?p=926",
+      type: "link", //"image" - "sound"
+      textColor: "#000000",
+    },
   "": {
     title: "",
     content: ``,
