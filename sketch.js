@@ -1009,7 +1009,7 @@ Contingency - entities"
   Chiasm: {
     title: "The Chiasm by Merleau-Ponty",
     content:
-      "https://www.youtube.com/embed/o8bkHCuJJBo?si=dUzpCwU8jffu3o-l?mute=1",
+      "https://www.youtube.com/embed/cdZl8sPHl3Y?si=J4z8jSJxY75YqW1y?mute=1",
     type: "video", //"image" - "sound"
     textColor: "#000000",
   },
