@@ -976,7 +976,7 @@ Contingency - entities"
   },
   "The first outcome from Untilled:": {
     title: "The first outcome from Untilled:",
-    content: ` <img src="assets/untilled/planning-untilled-sketch.jpg" class="img-center"> 
+    content: ` <img src="assets/untilled/hatchlabplan.jpg" class="img-center"> 
 <span class="research-link" onclick="spawn('Connecting Objects Across Space and Time with 3D Scanning and Shape Analysis')">Connecting Objects Across Space and Time with 3D Scanning and Shape Analysis</span>
 <span class="research-link" onclick="spawn('Tyndall effect')">Tyndall effect</span>
 <a href="https://adacomputerscience.org/concepts/compthink_methods" target="_blank" class="research-link">Computational Methods</a>
@@ -1073,7 +1073,7 @@ function setup() {
   randomBtn.addClass("research-link"); // Keep the minimalist style
   randomBtn.style("font-size", "10px");
   randomBtn.style("color", "#0033ff");
-  randomBtn.mousePressed(() => spawnRandom(6)); // Opens 6 random windows
+  randomBtn.mousePressed(() => spawnRandom(7)); // Opens 6 random windows
 }
 
 function draw() {
