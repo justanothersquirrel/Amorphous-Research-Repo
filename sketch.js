@@ -407,7 +407,7 @@ My initial approach will be to engage with dust without prematurely categorising
   },
   "I borrowed Foucaults Discipline and Punish": {
     title: "I borrowed Foucaults Discipline and Punish",
-    content: `Dust becomes an investigative method, {the physical residue of dust uncovers strategic relations, Micro, Macro, Past}|||||||||||||||||||||||||||||||||||||||||||||<img src="assets/Foucault_Michel_Discipline_and_Punish_The_Birth_of_the_Prison_Page26-27.jpg" lass="img-center">Michel Foucault, Discipline and Punish (1977), p. 26.
+    content: `Dust becomes an investigative method, {the physical residue of dust uncovers strategic relations, Micro, Macro, Past}|||||||||||||||||||||||||||||||||||||||||||||<img src="assets/Foucault_Michel_Discipline_and_Punish_The_Birth_of_the_Prison_Page26-27.jpg" class="img-center">Michel Foucault, Discipline and Punish (1977), p. 26.
     `,
     type: "text", //"image" - "sound"
     textColor: "#000000",
@@ -436,7 +436,7 @@ My initial approach will be to engage with dust without prematurely categorising
   },
   "Digital Narratives": {
     title: "Digital Narratives",
-    content: `<img src="assets/Digital Narratives and Witnessing  The Ethics of Engaging with Places at a Distance.jpg" lass="img-center"> Nishat Awan, 'Digital Narratives and Witnessing', GeoHumanities (2016). page 312`,
+    content: `<img src="assets/Digital Narratives and Witnessing  The Ethics of Engaging with Places at a Distance.jpg" class="img-center"> Nishat Awan, 'Digital Narratives and Witnessing', GeoHumanities (2016). page 312`,
     type: "text",
     textColor: "#000000",
   },
@@ -777,7 +777,6 @@ __Its everywhereº
   /*---------------------------------------------------->Modulating the Question تحوير السؤال< Content
                         Included pages:
                                 -subject-matter
-
   */
   ">Modulating the Question<": {
     title: ">Modulating the Question< >تحوير السؤال<",
@@ -856,7 +855,14 @@ B = human  or dust - ripe mango - fermented tofu….
 
   /*----------------------------------------------------Semi-Mutating the research Content
                         Included pages:
-                              
+                        - semi mutation potato
+                              -Topic_01: Untilled by Pierre Huyghe
+                                  0.0000001 <-> 1
+                                  Serpentine Cinema: On Earth and Gardening, with Flora Katz
+                                  Im not interested in binarity
+                                  Connecting Objects Across Space and Time with 3D Scanning and Shape Analysis
+                                  Tyndall effec
+                              -The Chiasm by Merleau-Ponty.
   */
 
   "Semi-Mutating the research": {
@@ -867,7 +873,7 @@ The topics I have chosen were found during the previous encounters while experim
 <span class="research-link" onclick="spawn('Topic_01: Untilled by Pierre Huyghe')">≥ Untilled by Pierre Huyghe.</span>
 ≥ Entropy.
 ≥ Difference and Repetition by Gilles Deleuze.
-<span class="research-link" onclick="spawn('Chiasm')">≥The Chiasm by Merleau-Ponty.</span><img src="assets/SEMI/Amorphous-research-diagram-semi.jpg"style="width: 70%; height: 70; display: block; margin: 10px 0;">By assembling the above aspects within the movement of the research as <span class="research-link" onclick="spawn('semi-mutations potato')">semi-mutations.</span> I can identify the research map that includes the diagram, the print, the object, the condition, exchanging effectiveness within this research methodology to create infinite proposals, outputs, and experiments. 
+<span class="research-link" onclick="spawn('Chiasm')">≥ The Chiasm by Merleau-Ponty.</span><img src="assets/SEMI/Amorphous-research-diagram-semi.jpg"style="width: 70%; height: 70; display: block; margin: 10px 0;">By assembling the above aspects within the movement of the research as <span class="research-link" onclick="spawn('semi-mutations potato')">semi-mutations.</span> I can identify the research map that includes the diagram, the print, the object, the condition, exchanging effectiveness within this research methodology to create infinite proposals, outputs, and experiments. 
 
 Research based-art includes different approaches to the subject/matter that would be: questioned explained elaborated interacted exposed experimented directed investigated refined rinsed purposed interfered disordered ordered...... . . .   .   .    .     .
 Computational research-based art <span class="research-link" onclick="spawn('Function input VERBS output')">functions</span> by modulating approaches to subject matter. The object here is the knowledge elaborated from various critical theories. I will write down what I understood from the text and how it might intertwine research between dust and rock. How could applied infomrationthe evolve by engaging with dust and rock?
@@ -999,6 +1005,7 @@ Contingency - entities"
     type: "link",
     textColor: "#000000",
   },
+
   Chiasm: {
     title: "The Chiasm by Merleau-Ponty",
     content:
