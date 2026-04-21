@@ -23,7 +23,7 @@ let researchData = {
   start: {
     title: "Amorphous Research || Dust",
     content: `
-The current situation of this research-based art project includes different approaches to the matter of, but not limited to, the notion ‘dust’. The research on dust will be: questioned, explained, elaborated, interacted, exposed, experimented, directed, investigated, refined, rinsed, purposed, interfered, disordered, ordered, swept, collected, archived, documented, broken, scanned, digitalised, computed, decoded, interfered, meta-morphed, excavated, encountered, trained, interacted… and what is between.
+The current situation of this research-based art project includes different approaches to the matter of, but not limited to, the notion ‘dust’. The amorphous research on dust can be: questioned, explained, elaborated, interacted, exposed, experimented, directed, investigated, refined, rinsed, purposed, interfered, disordered, ordered, swept, collected, archived, documented, broken, scanned, digitalised, computed, decoded, interfered, meta-morphed, excavated, encountered, trained, interacted… and what is between.
 
 ∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑
 ∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑
@@ -865,8 +865,8 @@ B = human  or dust - ripe mango - fermented tofu….
 This amorphous curiosity is shaping into a research methodologies with the use of <span class="research-link" onclick="spawn('Temple of the Sun')">the Temple of Sun</span> and <span class="research-link" onclick="spawn('a list of dust')">the notion of Dust</span> orbiting and interweaving, coexisting, gravitating.<img src="assets/SEMI/potato.jpg"style="width: 100%; height: auto; display: block; margin: 10px 0;">By engaging with theoretical frameworks, I have identified a pattern/sequence of events where the “in between” morphs into various research methodologies. How does communicating or the journey between the sender and receiver can be analysed and looked at from the research method aspect (such as: AXB). <img src="assets/SEMI/wordshighlight-01.jpg"style="width: 30%; height: 30; display: block; margin: 10px 0;">For now, the beginning involves finding topics until further notice. This emphasis on 'notice' brings back the question of noticing and appreciating of being both touchable and visible. The trajectory of this research orbit between Temple of Sun and the notion of Dust, while they both intertwine with all their agency. I have chosen different topics to pass through this orbit; by this passing, the outcomes are gravitated toward and informed by the exchange of information.
 The topics I have chosen were found during the previous encounters while experimenting with Amorphous Research: 
 <span class="research-link" onclick="spawn('Topic_01: Untilled by Pierre Huyghe')">Untilled by Pierre Huyghe.</span>
-<span class="research-link" onclick="spawn('Entropy')">Entropy.</span>
-<span class="research-link" onclick="spawn('Difference and Repetition')">Difference and Repetition by Gilles Deleuze.</span>
+Entropy.
+Difference and Repetition by Gilles Deleuze.
 <span class="research-link" onclick="spawn('Chiasm')">The Chiasm by Merleau-Ponty.</span><img src="assets/SEMI/Amorphous-research-diagram-semi.jpg"style="width: 70%; height: 70; display: block; margin: 10px 0;">By assembling the above aspects within the movement of the research as <span class="research-link" onclick="spawn('semi-mutations potato')">semi-mutations.</span> I can identify the research map that includes the diagram, the print, the object, the condition, exchanging effectiveness within this research methodology to create infinite proposals, outputs, and experiments. 
 
 Research based-art includes different approaches to the subject/matter that would be: questioned explained elaborated interacted exposed experimented directed investigated refined rinsed purposed interfered disordered ordered...... . . .   .   .    .     .
@@ -927,8 +927,7 @@ Contingency - entities"
     type: "text",
     textColor: "#000000",
   },
-
-  Untilled: {
+  "Untilled": {
     title:
       "Links used to understand the art project 'Untilled' by Pierre Huyghe.",
     content: `
@@ -938,7 +937,7 @@ Contingency - entities"
 
     <a href="https://www.theguardian.com/artanddesign/2018/oct/02/pierre-huyghe-serpentine-gallery-london" target="_blank" class="research-link">Interview The mind gardener: the machine that turns your thoughts into art.By Hettie Judah</a>
 
-    <span class="research-link" onclick="spawn('Artist Pierre Huyghe: I'm not interested in binarity. | Louisiana Channel')">Artist Pierre Huyghe: "I'm not interested in binarity." | Louisiana Channel</span>
+    <span class="research-link" onclick="spawn('Im not interested in binarity')">Artist Pierre Huyghe: I'm not interested in binarity. | Louisiana Channel</span>
 
     <a href="https://www.serpentinegalleries.org/whats-on/pierre-huyghe-uumwelt/" target="_blank" class="research-link">Pierre Huyghe: UUmwelt - Serpentine South Gallery</a>
 
@@ -955,7 +954,6 @@ Contingency - entities"
     type: "text",
     textColor: "#000000",
   },
-
   "Serpentine Cinema: On Earth and Gardening, with Flora Katz": {
     title: "Serpentine Cinema: On Earth and Gardening, with Flora Katz",
     content:
@@ -963,63 +961,13 @@ Contingency - entities"
     type: "video",
     textColor: "#000000",
   },
-  "Artist Pierre Huyghe: I'm not interested in binarity. | Louisiana Channel": {
-    title:
-      "Artist Pierre Huyghe: I'm not interested in binarity. | Louisiana Channel",
+  "Im not interested in binarity": {
+    title: "Im not interested in binarity",
     content:
-      "https://www.youtube.com/embed/WArGjRRF8Ec?si=r-rgkwnVDZNyvSld&amp;start=291",
+      "https://www.youtube.com/embed/WArGjRRF8Ec?si=Wrqp7lK6u0U3Btu1&amp;start=296",
     type: "video",
     textColor: "#000000",
   },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "": {
-    title: "",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-
   "0.0000001 <-> 1": {
     title: "0.0000001 <-> 1.",
     content: `https://api.pageplace.de/preview/DT0400.9780191520280_A23533887/preview-9780191520280_A23533887.pdf`,
@@ -1050,25 +998,14 @@ Contingency - entities"
     type: "link",
     textColor: "#000000",
   },
-
-  Entropy: {
-    title: "Entropy.",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  "Difference and Repetition": {
-    title: "Difference and Repetition",
-    content: ``,
-    type: "text", //"image" - "sound"
-    textColor: "#000000",
-  },
-  Chiasm: {
+  "Chiasm": {
     title: "The Chiasm by Merleau-Ponty",
-    content: ``,
-    type: "text", //"image" - "sound"
+    content:
+      "https://www.youtube.com/embed/o8bkHCuJJBo?si=dUzpCwU8jffu3o-l?mute=1",
+    type: "video", //"image" - "sound"
     textColor: "#000000",
   },
+
   "": {
     title: "",
     content: ``,
