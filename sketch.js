@@ -976,10 +976,13 @@ Contingency - entities"
   },
   "The first outcome from Untilled:": {
     title: "The first outcome from Untilled:",
-    content: ` <img src="assets/Untilled/LabPlan.jpg" class="inline-image"> 
+    content: `
 <span class="research-link" onclick="spawn('Connecting Objects Across Space and Time with 3D Scanning and Shape Analysis')">Connecting Objects Across Space and Time with 3D Scanning and Shape Analysis</span>
 <span class="research-link" onclick="spawn('Tyndall effect')">Tyndall effect</span>
 <a href="https://adacomputerscience.org/concepts/compthink_methods" target="_blank" class="research-link">Computational Methods</a>
+
+    
+    <img src="assets/Untilled/LabPlan.jpg" class="inline-image"> 
     `,
     type: "text",
     textColor: "#000000",
