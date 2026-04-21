@@ -927,7 +927,7 @@ Contingency - entities"
     type: "text",
     textColor: "#000000",
   },
-  "Untilled": {
+  Untilled: {
     title:
       "Links used to understand the art project 'Untilled' by Pierre Huyghe.",
     content: `
@@ -998,7 +998,7 @@ Contingency - entities"
     type: "link",
     textColor: "#000000",
   },
-  "Chiasm": {
+  Chiasm: {
     title: "The Chiasm by Merleau-Ponty",
     content:
       "https://www.youtube.com/embed/o8bkHCuJJBo?si=dUzpCwU8jffu3o-l?mute=1",
