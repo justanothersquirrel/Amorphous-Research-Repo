@@ -863,14 +863,21 @@ B = human  or dust - ripe mango - fermented tofu….
   "Semi-Mutating the research": {
     title: "Semi-Mutating the research",
     content: `<p style="color:red;"><del>Repurposing > Transposing > Transmuting > Semi-Transmuting</del> Semi-Mutating the research</p>
-This amorphous curiosity is shaping into a research methodologies with the use of the rock and dust orbiting and interweaving, coexisting, gravitating. 
+This amorphous curiosity is shaping into a research methodologies with the use of the Temple of Sun and the notion of Dust orbiting and interweaving, coexisting, gravitating. 
 
-Through researching different topics in physics, sociology, and philosophy, I have observed a sequence of events where the 'in-between' morphs into different forms of approaching research methods. How can the communication journey between the sender and the receiver be analysed and looked at through the lens of this research method (such as <span class="research-link" onclick="spawn('sender and receiver reflection')">the formula example in sender and reciever text</span> AXB)?. 
+By engaging with theoretical frameworks, I have identified a pattern/sequence of events where the “in between” morphs into various research methodologies. 
+How does communicating or the journey between the sender and receiver can be analysed and looked at from the research method aspect (such as: AXB). 
 
-Endless methods come from researching and learning different topic. 
+For now, the beginning involves finding topics until further notice. This emphasis on 'notice' brings back the question of noticing and appreciating of being both touchable and visible. The trajectory of this research orbit between Temple of Sun and the notion of Dust, while they both intertwine with all their agency. I have chosen different topics to pass through this orbit; by this passing, the outcomes are gravitated toward and informed by the exchange of information.
+The topics I have chosen were found during the previous encounters while experimenting with Amorphous Research: 
+  Untilled by Pierre Huyghe.
+  Entropy.
+  Difference and Repetition by Gilles Deleuze.
+  the Chiasm by Merleau-Ponty. 
+By assembling the above aspects within the movement of the research as semi-mutations. I can identify the research map that includes the diagram, the print, the object, the condition, exchanging effectiveness within this research methodology to create infinite proposals, outputs, and experiments. 
 
 Research based-art includes different approaches to the subject/matter that would be: questioned explained elaborated interacted exposed experimented directed investigated refined rinsed purposed interfered disordered ordered...... . . .   .   .    .     .
-
+Computational research-based art functions by modulating approaches to subject matter. The object here is the knowledge elaborated from various critical theories. I will write down what I understood from the text and how it might intertwine research between dust and rock. How could applied infomrationthe evolve by engaging with dust and rock?
 
 
       `,
