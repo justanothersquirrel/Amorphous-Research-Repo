@@ -1082,6 +1082,17 @@ function setup() {
   randomBtn.style("font-size", "10px");
   randomBtn.style("color", "#0033ff");
   randomBtn.mousePressed(() => spawnRandom(7)); // Opens 6 random windows
+
+  let refreshBtn = createButton("refresh system");
+  refreshBtn.position(20, height - 20); // Positioned below the 'random' button
+  refreshBtn.addClass("research-link");
+  refreshBtn.style("font-size", "10px");
+  refreshBtn.style("color", "#0033ff");
+
+  // This triggers the browser to reload the current page
+  refreshBtn.mousePressed(() => {
+    window.location.reload();
+  });
 }
 
 function draw() {
