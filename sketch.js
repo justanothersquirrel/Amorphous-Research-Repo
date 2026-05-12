@@ -196,11 +196,13 @@ the list will always be updated
     textColor: "#000000",
   },
   "a collection of sounds-dust": {
-    title: "a collection of sounds-dust",
-    content: `not ready yet! But I think I found a way to transform the shape of the images of dust into waves, then maybe becomes frequencies. Just thought Ill share this idea for now.`,
-    type: "text",
+    title:
+      "An Interview with Dust” is a code project built to elaborate an act of investigation with dust as part of Amorphous Research.t",
+    content: `https://justanothersquirrel.github.io/An-Interview-with-Dust/`,
+    type: "link",
     textColor: "#ff2a00",
   },
+
   "The Stack by Benjamin Bratton.": {
     title: "The Stack by Benjamin Bratton.",
     type: "video",
