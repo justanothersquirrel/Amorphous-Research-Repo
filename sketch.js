@@ -186,6 +186,7 @@ the list will always be updated
     title: "a collection of images-dust",
     content: `<img src="assets/DustCollection/dustCollection_9363.jpg" class="img-center">
     <img src="assets/DustCollection/dustCollection_9361.jpg" class="img-center">
+    <img src="assets/DustCollection/dustCollection_9264.jpg" class="img-center">
     <img src="assets/DustCollection/dustCollection_9360.jpg" class="img-center">
     <img src="assets/DustCollection/dustCollection_9358.jpg" class="img-center">
     <img src="assets/DustCollection/dustCollection_9357.jpg" class="img-center">
